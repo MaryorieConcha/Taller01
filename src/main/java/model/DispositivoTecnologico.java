@@ -90,4 +90,12 @@ public abstract class DispositivoTecnologico {
 	public void setStock(int stock) {
 		this.stock = stock;
 	}
+
+	public Tienda getTienda() {
+		return tienda;
+	}
+
+	public void setTienda(Tienda tienda) {
+		this.tienda = tienda;
+	}
 }

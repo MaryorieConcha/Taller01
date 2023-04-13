@@ -62,8 +62,8 @@ public class Tienda {
 		return dispositivo;
 	}
 
-	public void vender(Cliente cliente){
-
+	public List<Cliente> vender(DispositivoTecnologico dispositivoTecnologico){
+		return null;
 	}
 
 	//Buscar por marca, modelo, o tipo
