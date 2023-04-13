@@ -4,7 +4,13 @@ public class Pantalla {
 	private String marca;
 	private String modelo;
 	private int año;
-	public Computadores unnamed_Computadores_;
+	private Computadores computadores;
+
+	public Pantalla(String marca, String modelo, int año) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.año = año;
+	}
 
 	public String getMarca() {
 		return this.marca;
